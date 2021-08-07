@@ -1,9 +1,57 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+let navInfo = [
+  {
+    title: 'music',
+    url: '/music',
+    cName: 'nav-link'
+  },
+  {
+    title: 'about',
+    url: '/about',
+    cName: 'nav-link'
+  },
+  {
+    title: 'contact',
+    url: '/contact',
+    cName: 'nav-link'
+  }
+];
+
+const navItems = navInfo.map((item, index) => {
+  return (
+    <li key={index}>
+      <NavLink className={item.cName} to={item.url}>{item.title}</NavLink>
+    </li>
+  )
+})
 
 export default function Nav() {
   return (
-    <nav>
-      <p>up top, homie</p>
+    <nav className='navigation'>
+      <ul className='nav-menu'>
+        {navItems}
+      </ul>
     </nav>
   );
 };
+
+
+// const navBar = MenuItems.map((item, index)=>{
+//   return(
+//       <li key={index}>
+//           <NavLink className={item.cName} to={item.url}>{item.title}</NavLink>
+//       </li>
+//   )
+// });
+  
+// return(
+//   <nav className='NavbarItems'>
+//       <h1 className='navbar-logo'>sugarpatch <i className="fas fa-coins"></i></h1>
+//       <ul className='nav-menu'>
+//           {navBar}
+//       </ul>
+//   </nav>
+// )
+// }
