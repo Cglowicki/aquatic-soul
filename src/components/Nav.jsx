@@ -4,6 +4,11 @@ import './Nav.scss';
 
 let navInfo = [
   {
+    title: 'AQUATIC SOUL',
+    url: '/',
+    cName: 'main-logo'
+  },
+  {
     title: 'music',
     url: '/music',
     cName: 'nav-link'
