@@ -2,15 +2,20 @@
   color: black;
   font-size: 30px;
   padding-right: 10px;
+  font-family: 'Monoton', cursive;
 }
 
 .nav-menu {
-  text-decoration: none;
+  font-size: 30px;
   list-style-type: none;
   display: flex;
-  justify-content: flex-start;
+  background-color: grey;
+  margin-top: 0px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 
   .nav-link {
     padding-right: 10px;
+    text-decoration: none;
   }
 }
