@@ -1,0 +1,10 @@
+.nav-menu {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+
+  .nav-link {
+    padding-right: 10px;
+  }
+}
