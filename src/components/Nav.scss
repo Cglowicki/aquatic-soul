@@ -1,7 +1,8 @@
+
 .main-logo {
-  color: black;
+  color: lightblue;
   font-size: 30px;
-  padding-right: 10px;
+  padding-right: 50px;
   font-family: 'Monoton', cursive;
 }
 
@@ -9,13 +10,17 @@
   font-size: 30px;
   list-style-type: none;
   display: flex;
-  background-color: grey;
+  background-color: rgb(2, 2, 94);
   margin-top: 0px;
   padding-top: 10vh;
   padding-bottom: 10vh;
+  border-radius: 0px 0px 5px 5px;
 
   .nav-link {
-    padding-right: 10px;
+    padding-right: 20px;
     text-decoration: none;
+    color:lightcoral;
+    font-family: 'Righteous', cursive;
+
   }
 }
