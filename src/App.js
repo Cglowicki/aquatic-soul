@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 
 //pages
+import Home from './pages/Home.jsx';
 import Music from './pages/Music.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
@@ -24,6 +25,7 @@ function App() {
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
         </div>
+        <Route exact path='/' component={Home} />
       </Router>
     </div>
   );
