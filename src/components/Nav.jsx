@@ -37,22 +37,3 @@ export default function Nav() {
     </nav>
   );
 };
-
-
-// const navBar = MenuItems.map((item, index)=>{
-//   return(
-//       <li key={index}>
-//           <NavLink className={item.cName} to={item.url}>{item.title}</NavLink>
-//       </li>
-//   )
-// });
-  
-// return(
-//   <nav className='NavbarItems'>
-//       <h1 className='navbar-logo'>sugarpatch <i className="fas fa-coins"></i></h1>
-//       <ul className='nav-menu'>
-//           {navBar}
-//       </ul>
-//   </nav>
-// )
-// }
